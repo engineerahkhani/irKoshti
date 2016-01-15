@@ -1,0 +1,167 @@
+/****************************/
+/*general css style*/
+/****************************/
+@import url("../fonts/stylesheet.css");
+
+* {
+    font-family: BYekan;
+}
+
+body {
+    background: url("../img/bg.jpg") 100% 0 no-repeat fixed;
+    filter: blur(5px);
+    background-size: cover;
+    color: #f1f1f1;
+    margin-bottom: 150px;
+    animation-name: start;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+
+}
+@keyframes start {
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+}
+.btn {
+    border-radius: 0px;
+    text-align: center !important;
+}
+#video{
+    position: fixed;
+    /*top:50%;*/
+    /*left:50%;*/
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    z-index:-100;
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+/*card*/
+#card1 {
+    background-color: rgba(232, 0, 51,0.7);
+
+}
+#card2 {
+    background-color: rgba(255, 107, 0, 0.7);
+}
+#card3{
+    background:rgba(255, 0, 102,0.7)
+}
+
+.card {
+    position: relative;
+    height: 50vh;
+    padding-top: 20vh;
+    text-align: center;
+    margin-top: 20vh;
+    margin-right: 10px;
+    border-top-left-radius:20%;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.8);
+}
+
+.card img {
+    position: absolute;
+    top: -15vh;
+    margin-left: auto;
+    margin-right: auto;
+    left:20%;
+
+}
+
+.card h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.card a {
+    color: #2b542c;
+}
+
+.card a:hover {
+    color: #ffffff;
+}
+
+/*footer section css style*/
+/****************************/
+footer {
+    background-color: #e80033;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+footer .social-icons {
+
+}
+
+footer .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+footer h5 span {
+    color: #0f0f0f;
+}
+
+footer .social-icons ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer .social-icons ul li a {
+
+    border-radius: 4px;
+
+}
+
+footer .social-icons ul li a {
+    color: #fff
+}
+
+footer .social-icons ul li a.envelope:hover {
+    color: #CECB26;
+}
+
+footer .social-icons ul li a.facebook:hover {
+    color: #3b5999;
+}
+
+footer .social-icons ul li a.twitter:hover {
+    color: #2ac6f7;
+}
+
+footer .social-icons ul li a.dribbble:hover {
+    color: #ff5b92;
+}
+
+footer .social-icons ul li a.linkedin:hover {
+    color: #036dc0;
+}
+
+footer .social-icons ul li a.tumblr:hover {
+    color: #ff6b00;
+}
+
+/****************************/
+/*footer animation section css style*/
+/****************************/
